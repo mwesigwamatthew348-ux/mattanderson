@@ -1,1 +1,538 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GreenFuture | Protect Nature</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ================= NAVIGATION ================= -->
+
+<header class="header">
+    <nav class="navbar">
+
+        <a href="#" class="logo">
+            <span class="logo-icon">🌱</span>
+
+            <span>
+                <strong>Green<span>Future</span></strong>
+                <small>Healthy Planet • Brighter Tomorrow</small>
+            </span>
+        </a>
+
+        <button class="menu-btn" id="menuBtn">☰</button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Our Work</a></li>
+
+            <li class="dropdown">
+                <a href="#get-involved">Get Involved ▾</a>
+            </li>
+
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+            <li>
+                <button class="donate-btn" onclick="donate()">
+                    ♥ Donate
+                </button>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+        <p class="eyebrow">
+            TOGETHER FOR A GREENER PLANET
+        </p>
+
+        <h1>
+            Protect Nature.<br>
+            Secure Our <span>Future.</span>
+        </h1>
+
+        <p class="hero-text">
+            We work to conserve the environment, protect wildlife,
+            and promote sustainable living for healthier communities
+            and a brighter tomorrow.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#get-involved" class="btn primary">
+                Get Involved →
+            </a>
+
+            <a href="#about" class="btn secondary">
+                Learn More
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= MISSION CARDS ================= -->
+
+<section class="mission">
+
+    <div class="mission-card">
+        <div class="mission-icon green">🌿</div>
+        <div>
+            <h3>Conserve Nature</h3>
+            <p>Protect forests, rivers, and biodiversity.</p>
+        </div>
+    </div>
+
+    <div class="mission-card">
+        <div class="mission-icon blue">🌎</div>
+        <div>
+            <h3>Fight Climate Change</h3>
+            <p>Support clean energy and reduce carbon footprint.</p>
+        </div>
+    </div>
+
+    <div class="mission-card">
+        <div class="mission-icon recycle">♻</div>
+        <div>
+            <h3>Reduce Waste</h3>
+            <p>Choose reduce, reuse, recycle.</p>
+        </div>
+    </div>
+
+    <div class="mission-card">
+        <div class="mission-icon yellow">👥</div>
+        <div>
+            <h3>Build Sustainable Communities</h3>
+            <p>Empower people and create lasting change.</p>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="about" id="about">
+
+    <div class="about-image">
+        <img
+            src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1000&q=85"
+            alt="Green forest">
+    </div>
+
+    <div class="about-content">
+
+        <p class="section-label">ABOUT GREENFUTURE</p>
+
+        <h2>
+            Building a healthier planet
+            for everyone.
+        </h2>
+
+        <p>
+            GreenFuture is an environmental conservation initiative
+            focused on protecting nature and encouraging communities
+            to live sustainably.
+        </p>
+
+        <p>
+            We believe that small actions can create meaningful
+            environmental change when people work together.
+        </p>
+
+        <a href="#work" class="btn primary">
+            Discover Our Work →
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= OUR IMPACT ================= -->
+
+<section class="impact" id="work">
+
+    <div class="impact-intro">
+
+        <p class="section-label">OUR IMPACT</p>
+
+        <h2>
+            Real Actions.<br>
+            Lasting Change.
+        </h2>
+
+        <p>
+            From tree planting to wildlife protection,
+            our projects help create healthier ecosystems
+            and stronger communities.
+        </p>
+
+        <a href="#projects" class="btn primary">
+            Explore Our Work →
+        </a>
+
+    </div>
+
+
+    <div class="projects" id="projects">
+
+        <!-- PROJECT 1 -->
+
+        <article class="project-card">
+
+            <img
+                src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=85"
+                alt="Tree planting">
+
+            <div class="project-content">
+
+                <span class="project-icon">🌱</span>
+
+                <h3>Tree Planting</h3>
+
+                <p>
+                    Restoring forests and fighting deforestation.
+                </p>
+
+                <a href="#">Learn More →</a>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 2 -->
+
+        <article class="project-card">
+
+            <img
+                src="https://images.unsplash.com/photo-1518467166778-b88f373ffec7?auto=format&fit=crop&w=800&q=85"
+                alt="Wildlife protection">
+
+            <div class="project-content">
+
+                <span class="project-icon">🐢</span>
+
+                <h3>Wildlife Protection</h3>
+
+                <p>
+                    Safeguarding endangered species and habitats.
+                </p>
+
+                <a href="#">Learn More →</a>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 3 -->
+
+        <article class="project-card">
+
+            <img
+                src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=800&q=85"
+                alt="Clean energy">
+
+            <div class="project-content">
+
+                <span class="project-icon">☀</span>
+
+                <h3>Clean Energy</h3>
+
+                <p>
+                    Promoting renewable and clean energy solutions.
+                </p>
+
+                <a href="#">Learn More →</a>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 4 -->
+
+        <article class="project-card">
+
+            <img
+                src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=800&q=85"
+                alt="Community cleanup">
+
+            <div class="project-content">
+
+                <span class="project-icon">♻</span>
+
+                <h3>Community Action</h3>
+
+                <p>
+                    Inspiring people to take action in their daily lives.
+                </p>
+
+                <a href="#">Learn More →</a>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- ================= STATISTICS ================= -->
+
+<section class="stats">
+
+    <div class="stat">
+        <strong class="counter" data-target="25000">0</strong>
+        <span>Trees Planted</span>
+    </div>
+
+    <div class="stat">
+        <strong class="counter" data-target="120">0</strong>
+        <span>Communities Reached</span>
+    </div>
+
+    <div class="stat">
+        <strong class="counter" data-target="85">0</strong>
+        <span>Wildlife Projects</span>
+    </div>
+
+    <div class="stat">
+        <strong class="counter" data-target="40">0</strong>
+        <span>Clean Energy Projects</span>
+    </div>
+
+</section>
+
+
+<!-- ================= GET INVOLVED ================= -->
+
+<section class="get-involved" id="get-involved">
+
+    <div>
+
+        <p class="section-label">GET INVOLVED</p>
+
+        <h2>
+            You can make<br>
+            a difference.
+        </h2>
+
+        <p>
+            Protecting our planet requires everyone's participation.
+            Choose an action and become part of the movement.
+        </p>
+
+    </div>
+
+
+    <div class="involvement-buttons">
+
+        <button onclick="showMessage('Thank you for volunteering!')">
+            🤝 Volunteer
+        </button>
+
+        <button onclick="donate()">
+            💚 Donate
+        </button>
+
+        <button onclick="showMessage('Thank you for supporting GreenFuture!')">
+            🌎 Partner With Us
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- ================= RESOURCES ================= -->
+
+<section class="resources" id="resources">
+
+    <p class="section-label">RESOURCES</p>
+
+    <h2>Learn. Act. Protect.</h2>
+
+    <div class="resource-grid">
+
+        <div class="resource">
+            <span>🌳</span>
+            <h3>Plant Trees</h3>
+            <p>
+                Learn how trees help protect ecosystems and communities.
+            </p>
+        </div>
+
+        <div class="resource">
+            <span>♻</span>
+            <h3>Recycle</h3>
+            <p>
+                Discover simple ways to reduce waste at home and school.
+            </p>
+        </div>
+
+        <div class="resource">
+            <span>💧</span>
+            <h3>Save Water</h3>
+            <p>
+                Learn practical ways to conserve this important resource.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= NEWSLETTER ================= -->
+
+<section class="newsletter" id="contact">
+
+    <div>
+
+        <p class="section-label">STAY CONNECTED</p>
+
+        <h2>Join the GreenFuture community.</h2>
+
+        <p>
+            Receive environmental news, project updates and
+            ways you can help protect our planet.
+        </p>
+
+    </div>
+
+
+    <form id="newsletterForm">
+
+        <input
+            type="email"
+            id="email"
+            placeholder="Enter your email address"
+            required
+        >
+
+        <button type="submit">
+            Subscribe
+        </button>
+
+    </form>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="footer-main">
+
+        <div class="footer-brand">
+
+            <a href="#" class="logo footer-logo">
+                <span class="logo-icon">🌱</span>
+
+                <span>
+                    <strong>Green<span>Future</span></strong>
+                    <small>Healthy Planet • Brighter Tomorrow</small>
+                </span>
+            </a>
+
+            <p>
+                A cleaner, greener and healthier planet is possible.
+                Join us in making it happen.
+            </p>
+
+            <div class="socials">
+                <a href="#">f</a>
+                <a href="#">𝕏</a>
+                <a href="#">◎</a>
+                <a href="#">▶</a>
+            </div>
+
+        </div>
+
+
+        <div>
+            <h3>Quick Links</h3>
+
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#work">Our Work</a>
+            <a href="#get-involved">Get Involved</a>
+            <a href="#resources">Resources</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+
+        <div>
+            <h3>Get Involved</h3>
+
+            <a href="#">Donate</a>
+            <a href="#">Volunteer</a>
+            <a href="#">Partner With Us</a>
+            <a href="#">Spread the Word</a>
+        </div>
+
+
+        <div>
+            <h3>Contact</h3>
+
+            <p>📧 hemwesigwamatthew@gmail.com</p>
+            <p>📞 +256 7580 02520</p>
+            <p>📍 NATIONAL WILDLIFE CONSERVATION CENTRE</p>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 GreenFuture. All rights reserved.
+        </p>
+
+        <div>
+            <a href="#">Privacy Policy</a>
+            <span>|</span>
+            <a href="#">Terms & Conditions</a>
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
